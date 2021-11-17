@@ -26,3 +26,22 @@ if number1 >= number2:
 
 if number1 <= number2:
     print(number1, 'is less than or eqaul to', number2)
+
+###########################################################################################################################
+print("\n")
+# fig02_02.py
+"""Find the minimum of three values."""
+
+a = int(input('Enter first integer: '))
+b = int(input('Enter second integer: '))
+c = int(input('Enter third integer: '))
+
+minimum = a
+
+if b < minimum:
+    minimum = b
+
+if c < minimum:
+    minimum = c
+
+print('Minimum value is', minimum)
