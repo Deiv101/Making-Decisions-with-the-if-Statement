@@ -45,3 +45,12 @@ if c < minimum:
     minimum = c
 
 print('Minimum value is', minimum)
+
+###########################################################################################################################
+grade = float(input("Enter pupil's grade: "))
+
+if grade >= 60:
+    print('The student has passed.')
+
+if grade <= 60:
+    print('The student has failed.')
