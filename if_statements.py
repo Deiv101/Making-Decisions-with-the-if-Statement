@@ -66,7 +66,7 @@ print("\n")
 
 grade = 77
 
-if grade > = 90:
+if grade >= 90:
     print('A')
 elif grade >= 80:
     print('B')
@@ -76,3 +76,15 @@ elif grade >= 60:
     print('D')
 else:
     print('F')
+
+###########################################################################################################################
+# Nested
+color_names = ['red', 'orange', 'yellow', 'green', 'white', 'blue']
+
+for color in color_names:
+    if color == 'red':
+        print(f'That color is {color}.')
+    elif color == 'magenta':
+        print(f'{color} is not in the list.')
+    else:
+        print(f'That color is any other color other than {color}.')
