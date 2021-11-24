@@ -94,4 +94,4 @@ for color in color_names:
 list1 = []
 
 for item in range(1, 6):
-    
+    list1.append(item)
