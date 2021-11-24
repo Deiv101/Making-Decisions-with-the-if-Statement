@@ -88,3 +88,6 @@ for color in color_names:
         print(f'{color} is not in the list.')
     else:
         print(f'That color is any other color other than {color}.')
+
+###########################################################################################################################
+# Lists comprehension
