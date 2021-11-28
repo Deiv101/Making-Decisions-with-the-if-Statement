@@ -102,3 +102,14 @@ list2 = [item for item in range(1, 6)]
 list2
 
 ###########################################################################################################################
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+c = float(input("Enter the third number: "))
+
+# Conditionals
+if a > b:
+    print(f"{a} is bigger than {b}.")
+    a
+elif b > a:
+    print("The second number is bigger than the first.")
+    re
