@@ -125,4 +125,6 @@ elif c > a:
 elif c > b:
     print(f"{c}, the 3rd number, is bigger than {b}, the 2nd number.")
 
+else:
+    print(f"The number enter is either bigger or smaller.")
 
