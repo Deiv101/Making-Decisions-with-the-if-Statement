@@ -109,7 +109,7 @@ c = float(input("Enter the third number: "))
 # Conditionals
 if a > b:
     print(f"{a} is bigger than {b}.")
-    a
+    
 elif b > a:
-    print("The second number is bigger than the first.")
-    re
+    print(f"{b}, the second number, is bigger than {a}, the first number.")
+    
