@@ -116,3 +116,7 @@ elif b > a:
 elif a > c:
     print(f"{a} is bigger than {c}, the thrid number.")
 
+elif b > c:
+    print(f"{b}, the second number, is bigger than {c}, the thrid number.")
+    
+
