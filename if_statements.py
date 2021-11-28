@@ -113,3 +113,5 @@ if a > b:
 elif b > a:
     print(f"{b}, the second number, is bigger than {a}, the first number.")
     
+elif a> c:
+    
